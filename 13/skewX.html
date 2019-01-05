@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>Transform</title>
+    <style>
+			.origin {
+				width: 160px;
+				height: 240px;
+				border: 1px solid black;
+				float: left;
+				margin: 100px;
+			}
+            .skewx1 {
+                -webkit-transform: skewX(30deg);
+                -ms-transform: skewX(30deg);
+                -moz-transform: skewX(30deg);
+                -o-transform: skewX(30deg);
+                transform: skewX(30deg);
+            }
+            .skewx2 {
+                -webkit-transform: skewX(-30deg);
+                -ms-transform: skewX(-30deg);
+                -moz-transform: skewX(-30deg);
+                -o-transform: skewX(-30deg);
+                transform: skewX(-30deg);
+            }			
+		</style>
+	</head>
+	<body>		
+		<div class="origin">
+			<div class="skewx1">
+				<img src="images/rose.jpg">
+			</div>
+		</div>
+		<div class="origin">
+			<div class="skewx2">
+				<img src="images/rose.jpg">
+			</div>
+		</div>
+	</body>
+</html>

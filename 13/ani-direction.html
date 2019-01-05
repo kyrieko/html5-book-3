@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Transform</title>
+<style>
+	div {
+		width: 100px;
+		height: 100px;
+		background-color: blue;
+		-webkit-animation-name: change-bg;
+		-moz-animation-name: change-bg;
+		-o-animation-name: change-bg;
+		animation-name: change-bg;
+		-webkit-animation-duration: 3s;
+		-moz-animation-duration: 3s;
+		-o-animation-duration: 3s;
+		animation-duration: 3s;
+		-webkit-animation-direction: alternate;
+		-moz-animation-direction:alternate;
+		-o-animation-direction:alternate;		
+		animation-direction:alternate;		
+	}
+
+	@-webkit-keyframes change-bg{
+		from {
+			background-color:blue;
+		}
+		50% {
+			background-color:yellow;
+		}
+		to {
+			background-color:green;
+		}
+	}
+	@-moz-keyframes change-bg {
+		from {
+			background-color:blue;
+		}
+		50% {
+			background-color:yellow;
+		}
+		to {
+			background-color:green;
+		}
+	}
+	@-o-keyframes change-bg {
+		from {
+			background-color:blue;
+		}
+		50% {
+			background-color:yellow;
+		}
+		to {
+			background-color:green;
+		}
+	}
+	@keyframes change-bg {
+		from {
+			background-color:blue;
+		}
+		50% {
+			background-color:yellow;
+		}
+		to {
+			background-color:green;
+		}
+	}
+</style>
+</head>
+
+<body>
+	<div></div>
+</body>
+</html>
